@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.murilo.TrafficLight"
+          prefHeight="400.0" prefWidth="600.0" styleClass="pane" vgap="10">
+    <padding>
+        <Insets left="250" top="20"/>
+    </padding>
+    <VBox spacing="10" styleClass="box" prefHeight="350" prefWidth="110" >
+        <padding>
+            <Insets top="15" left="5"/>
+        </padding>
+        <Button visible="true" disable="true" onAction="#redThread" styleClass="form-label" prefWidth="100" prefHeight="100" GridPane.columnIndex="5" GridPane.rowIndex="1"/>
+        <Button visible="true" disable="true" onAction="#yellowThread" styleClass="form-label" prefWidth="100" prefHeight="100" GridPane.columnIndex="5" GridPane.rowIndex="2"/>
+        <Button visible="true" disable="true" onAction="#greenThread" styleClass="form-label" prefWidth="100" prefHeight="100" GridPane.columnIndex="5" GridPane.rowIndex="3"/>
+    </VBox>
+</GridPane>

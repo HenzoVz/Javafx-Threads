@@ -1,0 +1,24 @@
+.pane {
+    -fx-background-color: #fff;
+}
+
+.button {
+      -fx-background-color: #ccc;
+      -fx-background-radius: 60;
+}
+
+.green {
+    -fx-background-color: #00FF00;
+}
+
+.red {
+    -fx-background-color: #FF0000;
+}
+
+.yellow {
+    -fx-background-color: #FFFF00;
+}
+
+.box {
+    -fx-background-color: #000;
+}
